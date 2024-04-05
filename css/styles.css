@@ -98,7 +98,7 @@ body {
 /* header - content
 /* header - section */
 
-
+/* Desktop Devices */
 @media only screen and (min-width: 950px) {
    .container {
       width: 950px;
