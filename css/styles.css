@@ -98,6 +98,7 @@ body {
 /* header - content
 /* header - section */
 
+/* MAIN SECTION */
 #main {
    display: flex;
    justify-content: center;
@@ -136,6 +137,9 @@ body {
    margin-top: 10px;
    font-size: 14px;
 }
+
+/* MAIN SECTION */
+
 
 
 /* Desktop Devices */
