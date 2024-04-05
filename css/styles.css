@@ -98,6 +98,46 @@ body {
 /* header - content
 /* header - section */
 
+#main {
+   display: flex;
+   justify-content: center;
+   padding: 2em 0;
+   align-items: flex-start;
+   min-height: 300px;
+   margin-bottom: 1em;
+}
+
+#main .main-heading {
+   text-align: center;
+   font-size: 36px;
+   font-weight: bold;
+   color: #1f2937;
+}
+
+.boxes {
+   display: flex;
+   width: 80%;
+   margin: 1em auto;
+   gap: 2em;
+   padding: 1em;
+}
+
+
+.boxes .box {
+   height: 140px;
+   border: 3px solid #3882f6;
+   border-radius: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-container p {
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+
 /* Desktop Devices */
 @media only screen and (min-width: 950px) {
    .container {
