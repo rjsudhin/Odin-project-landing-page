@@ -218,6 +218,7 @@ footer p {
 @media only screen and (max-width: 500px) {
    
    #header .nav {
+      padding-top: 1em;
       flex-direction: column;
       height: unset;
    }
@@ -228,6 +229,24 @@ footer p {
 
    .nav #nav-bar li {
       font-size: 15px;
+   }
+
+   #header .header-content {
+      flex-direction: column-reverse;
+   }
+
+   .hero-contents .hero-title {
+      font-size: 28px;
+      text-align: center;
+   }
+
+   .hero-description {
+      text-align: center;
+   }
+
+   .hero-contents .sign-up-btn {
+      display: block;
+      margin: 1em auto;
    }
 }
 
