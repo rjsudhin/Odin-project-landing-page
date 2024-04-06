@@ -262,6 +262,11 @@ footer p {
       text-align: center;
       margin-bottom: 2em;
    }
+
+   /* first section */
+   #first-section .quotes .quote {
+      font-size: 18px;
+   }
 }
 
 
