@@ -78,7 +78,7 @@ body {
    color: #e5e7eb;
 }
 
-.sign-up-btn {
+.header-content .sign-up-btn {
    background-color: #3882f6;
    max-width: 120px;
    width: 80%;
@@ -192,10 +192,18 @@ body {
    justify-content: space-around;
    padding: 2em;
    border-radius: 1em;
+   align-items: center;
 }
 
 .info-box button {
+   width: 130px;
    border: 1px solid #e5e7eb;
+   border-radius: 1em;
+   color: #e5e7eb;
+   background-color: #3882f6;
+   flex-shrink: 0;
+   height: 35px;
+   align-self: center;
 }
 /* Second Section */
 
@@ -266,6 +274,17 @@ footer p {
    /* first section */
    #first-section .quotes .quote {
       font-size: 18px;
+   }
+
+   /* second section */
+   #second-section .info-box {
+      width: 90%;
+      margin: auto;
+      flex-wrap: wrap;
+   }
+
+   .info-heading {
+      text-align: center;
    }
 }
 
