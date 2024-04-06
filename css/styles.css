@@ -248,6 +248,20 @@ footer p {
       display: block;
       margin: 1em auto;
    }
+
+   /* main - section */
+   #main .main-heading {
+      font-size: 24px;
+   }
+
+   #main .boxes {
+      display: block;
+   }
+
+   .box-container p {
+      text-align: center;
+      margin-bottom: 2em;
+   }
 }
 
 
