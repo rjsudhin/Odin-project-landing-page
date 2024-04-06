@@ -214,6 +214,23 @@ footer p {
 }
 /* FOOTER */
 
+/* Mobile Device */
+@media only screen and (max-width: 500px) {
+   
+   #header .nav {
+      flex-direction: column;
+      height: unset;
+   }
+
+   .nav #nav-bar {
+      margin: 1em 0;
+   }
+
+   .nav #nav-bar li {
+      font-size: 15px;
+   }
+}
+
 
 /* Desktop Devices */
 @media only screen and (min-width: 950px) {
