@@ -19,4 +19,11 @@ Sections are styled with padding to provide spacing and visual separation.
 Unordered lists have no bullets and minimal margin between list items.
 
 
+Conclusion
+
+This documentation provides an overview of the structure and styling of the simple landing page created with HTML and CSS. Further enhancements and customization can be made based on specific project requirements.
+
+
+
+
 
